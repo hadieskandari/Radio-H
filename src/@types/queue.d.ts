@@ -1,5 +1,4 @@
 export interface QueueInterface {
-    tracks: string[];
     broadcast(chunk: Buffer): void;
     addClient(): {
         id: string;

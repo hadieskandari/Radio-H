@@ -2,7 +2,7 @@
     "env": {
         "node": true
     },
-    "root": true,
+    "root": false,
     "parser": "@typescript-eslint/parser",
     "plugins": [
         "@typescript-eslint",
