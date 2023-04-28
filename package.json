@@ -20,7 +20,10 @@
   "devDependencies": {
     "@shopify/eslint-plugin": "^42.1.0",
     "@types/express": "^4.17.17",
+    "@types/ffprobe-static": "^2.0.1",
     "@types/node": "^18.16.2",
+    "@types/throttle": "^1.0.1",
+    "@types/uuid": "^9.0.1",
     "@typescript-eslint/eslint-plugin": "^5.59.1",
     "@typescript-eslint/parser": "^5.59.1",
     "eslint": "^8.39.0",
@@ -31,8 +34,12 @@
     "ts-node": "^10.9.1"
   },
   "dependencies": {
+    "@dropb/ffprobe": "^2.0.1",
     "@types/socket.io": "^3.0.2",
     "express": "^4.18.2",
-    "socket.io": "^4.6.1"
+    "ffprobe-static": "^3.1.0",
+    "socket.io": "^4.6.1",
+    "throttle": "^1.0.3",
+    "uuid": "^9.0.0"
   }
 }
